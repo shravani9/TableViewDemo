@@ -13,6 +13,8 @@
 		E4E1E26225CA821400C55E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E1E26025CA821400C55E56 /* Main.storyboard */; };
 		E4E1E26425CA821500C55E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E1E26325CA821500C55E56 /* Assets.xcassets */; };
 		E4E1E26725CA821500C55E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4E1E26525CA821500C55E56 /* LaunchScreen.storyboard */; };
+		E4E1E27425CA8B2A00C55E56 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E1E27325CA8B2A00C55E56 /* ReusableView.swift */; };
+		E4E1E27725CA8B4500C55E56 /* ReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E1E27625CA8B4500C55E56 /* ReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E4E1E26325CA821500C55E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4E1E26625CA821500C55E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4E1E26825CA821500C55E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E1E27325CA8B2A00C55E56 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		E4E1E27625CA8B4500C55E56 /* ReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				E4E1E26325CA821500C55E56 /* Assets.xcassets */,
 				E4E1E26525CA821500C55E56 /* LaunchScreen.storyboard */,
 				E4E1E26825CA821500C55E56 /* Info.plist */,
+				E4E1E27325CA8B2A00C55E56 /* ReusableView.swift */,
+				E4E1E27625CA8B4500C55E56 /* ReusableView.xib */,
 			);
 			path = TableViewDemo;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				E4E1E26725CA821500C55E56 /* LaunchScreen.storyboard in Resources */,
 				E4E1E26425CA821500C55E56 /* Assets.xcassets in Resources */,
 				E4E1E26225CA821400C55E56 /* Main.storyboard in Resources */,
+				E4E1E27725CA8B4500C55E56 /* ReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 				E4E1E25F25CA821400C55E56 /* ViewController.swift in Sources */,
 				E4E1E25B25CA821400C55E56 /* AppDelegate.swift in Sources */,
 				E4E1E25D25CA821400C55E56 /* SceneDelegate.swift in Sources */,
+				E4E1E27425CA8B2A00C55E56 /* ReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
